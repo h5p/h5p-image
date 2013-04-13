@@ -19,4 +19,5 @@ H5P.Image = function (params, contentPath) {
  */
 H5P.Image.prototype.attach = function ($wrapper) {
   $wrapper.html('<img width="100%" height="100%" src="' + this.file + '" alt=""/>');
+  this.$element = $wrapper.children();
 };
