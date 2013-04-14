@@ -10,7 +10,7 @@
   "author": "Frode Petterson",
   "preloadedJs": [
     {
-      "path": "sCrIpTs/iMaGe.Js"
+      "path": "scripts/image.js"
     }
   ]
 }
