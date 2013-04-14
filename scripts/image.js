@@ -9,6 +9,10 @@ var H5P = H5P || {};
  */
 H5P.Image = function (params, contentPath) {
   this.file = contentPath + params.file.path;
+  this.alt = params.alt;
+  if (params.title !== undefined) {
+    this.title = params.title;
+  }
 };
 
 /**
@@ -18,5 +22,6 @@ H5P.Image = function (params, contentPath) {
  * @returns {undefined}
  */
 H5P.Image.prototype.attach = function ($wrapper) {
-  $wrapper.html('<img width="100%" height="100%" src="' + this.file + '" alt=""/>');
+  var extraAttr = this.title === undefined ? '' : ' title="' + this.title + '"';
+  $wrapper.html('<img width="100%" height="100%" src="' + this.file + '" alt="' + this.alt + '"' + extraAttr + '/>');
 };
