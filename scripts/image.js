@@ -24,5 +24,5 @@ H5P.Image = function (params, contentPath) {
  */
 H5P.Image.prototype.attach = function ($wrapper) {
   var extraAttr = this.title === undefined ? '' : ' title="' + this.title + '"';
-  $wrapper.html('<img width="100%" height="100%" src="' + this.source + '" alt="' + this.alt + '"' + extraAttr + '/>');
+  $wrapper.html('<img class="h5p-image" width="100%" height="100%" src="' + this.source + '" alt="' + this.alt + '"' + extraAttr + '/>');
 };
