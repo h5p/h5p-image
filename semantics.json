@@ -15,6 +15,6 @@
     "name": "alt",
     "type": "text",
     "label": "Alternative text",
-    "description": "If fore some reson the image can't be displayed this text is displayed instead. Also used by readspeakers."
+    "description": "If for some reson the image can't be displayed this text is displayed instead. Also used by readspeakers."
   }
 ]
