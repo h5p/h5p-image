@@ -1,0 +1,15 @@
+{
+  "semantics": [
+    {
+      "label": "Bilete"
+    },
+    {
+      "label": "Hover-tekst",
+      "description": "Denne teksten visast når brukaren held musepeikaren over bilete. Kan til dømes brukast til å informere om opphav."
+    },
+    {
+      "label": "Alternativ tekst",
+      "description": "Viss biletet ikkje kan bli vist, visast denne teksten i staden. Denne blir og nytta ved talesyntese."
+    }
+  ]
+}

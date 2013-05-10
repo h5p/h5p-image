@@ -4,12 +4,12 @@
       "label": "Bilde"
     },
     {
-      "label": "Hover tekst",
+      "label": "Hover-tekst",
       "description": "Denne teksten vises når brukeren holder musepekeren over bildet. Kan eksempelvis brukes til å informere om opphav."
     },
     {
       "label": "Alternativ tekst",
-      "description": "Hvis bildet ikke kan vises vises denne teksten isteden. Blir også brukt ved talesyntese."
+      "description": "Hvis bildet ikke kan vises, vises denne teksten isteden. Denne blir også brukt ved talesyntese."
     }
   ]
 }
