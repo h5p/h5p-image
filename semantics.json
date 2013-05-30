@@ -5,16 +5,29 @@
     "label": "Image"
   },
   {
-    "name": "title",
-    "type": "text",
-    "label": "Hover text",
-    "description": "This text is displayed when the user hovers his mouse over the image. May be used for copyright information.",
-    "optional": true
-  },
-  {
     "name": "alt",
     "type": "text",
     "label": "Alternative text",
-    "description": "If for some reson the image can't be displayed this text is displayed instead. Also used by readspeakers."
+    "description": "Requied. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+  },
+  {
+    "name": "title",
+    "type": "text",
+    "label": "Hover text",
+    "description": "Optional. This text is displayed when the user hovers his mouse over the image.",
+    "optional": true
+  },
+  {
+    "name": "copyright",
+    "type": "html",
+    "label": "Copyright information",
+    "description": "Optional. Information regarding copyright for this image. E.g. photographer, source and license.",
+    "optional": true,
+    "tags": [
+      "strong",
+      "em",
+      "del",
+      "a"
+    ]
   }
 ]
