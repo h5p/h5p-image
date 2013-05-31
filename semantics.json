@@ -19,15 +19,93 @@
   },
   {
     "name": "copyright",
-    "type": "html",
+    "type": "group",
     "label": "Copyright information",
-    "description": "Optional. Information regarding copyright for this image. E.g. photographer, source and license.",
-    "optional": true,
-    "tags": [
-      "strong",
-      "em",
-      "del",
-      "a"
+    "fields": [
+      {
+        "name": "title",
+        "type": "text",
+        "label": "Title",
+        "placeholder": "La Gioconda",
+        "optional": true
+      },
+      {
+        "name": "author",
+        "type": "text",
+        "label": "Author",
+        "placeholder": "Leonardo da Vinci",
+        "optional": true
+      },
+      {
+        "name": "source",
+        "type": "text",
+        "label": "Source",
+        "placeholder": "http://en.wikipedia.org/wiki/Mona_Lisa",
+        "optional": true,
+        "regexp": {
+          "pattern": "^http[s]?://.+",
+          "modifiers": "gi"
+        }
+      },
+      {
+        "name": "license",
+        "type": "select",
+        "label": "License",
+        "default": "U",
+        "options": [
+          {
+            "value": "U",
+            "label": "Undisclosed"
+          },
+          {
+            "value": "CC BY",
+            "label": "Attribution"
+          },
+          {
+            "value": "CC BY-SA",
+            "label": "Attribution-ShareAlike"
+          },
+          {
+            "value": "CC BY-ND",
+            "label": "Attribution-NoDerivs"
+          },
+          {
+            "value": "CC BY-NC",
+            "label": "Attribution-NonCommercial"
+          },
+          {
+            "value": "CC BY-NC-SA",
+            "label": "Attribution-NonCommercial-ShareAlike"
+          },
+          {
+            "value": "CC BY-NC-ND",
+            "label": "Attribution-NonCommercial-NoDerivs"
+          },
+          {
+            "value": "PD",
+            "label": "Public Domain"
+          },
+          {
+            "value": "ODC PDDL",
+            "label": "Public Domain Dedication and Licence"
+          },
+          {
+            "value": "CC PDM",
+            "label": "Public Domain Mark"
+          },
+          {
+            "value": "C",
+            "label": "Copyright"
+          }
+        ]
+      }
     ]
+  },
+  {
+    "name": "contentName",
+    "type": "text",
+    "label": "Image content name",
+    "common": true,
+    "default": "Image"
   }
 ]
