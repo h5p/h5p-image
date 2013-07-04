@@ -12,5 +12,12 @@
     {
       "path": "scripts/image.js"
     }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.API",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
   ]
 }
