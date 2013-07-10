@@ -44,7 +44,7 @@
         "optional": true,
         "regexp": {
           "pattern": "^http[s]?://.+",
-          "modifiers": "gi"
+          "modifiers": "i"
         }
       },
       {
