@@ -32,20 +32,20 @@ H5P.Image = function (params, id) {
   }
   else {
     this.source = H5P.getPath(params.file.path, id);
+    
+    // Use new copyright information if available. Fallback to old.
+    if (params.file.copyrights !== undefined && params.file.copyrights.length) {
+      this.copyrights = params.file.copyrights;
+    }
+    else if (params.copyright !== undefined) {
+      this.copyrights = [params.copyright];
+    }
   }
 
   this.alt = params.alt !== undefined ? params.alt : 'New image';
 
   if (params.title !== undefined) {
     this.title = params.title;
-  }
-
-  // Use new copyright information if available. Fallback to old.
-  if (params.file.copyrights !== undefined && params.file.copyrights.length) {
-    this.copyrights = params.file.copyrights;
-  }
-  else if (params.copyright !== undefined) {
-    this.copyrights = [params.copyright];
   }
 };
 
