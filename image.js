@@ -13,6 +13,8 @@ H5P.Image = function (params, id) {
   }
   else {
     this.source = H5P.getPath(params.file.path, id);
+    this.width = params.file.width;
+    this.height = params.file.height;
     
     // Use new copyright information if available. Fallback to old.
     if (params.file.copyrights !== undefined && params.file.copyrights.length) {
@@ -48,6 +50,11 @@ H5P.Image.prototype.attach = function ($wrapper) {
  */
 H5P.Image.prototype.getCopyrights = function () {
   return {
-    copyrights: H5P.getCopyrightList(this.copyrights)
+    copyrights: H5P.getCopyrightList(this.copyrights),
+    thumbnail: {
+      source: this.source,
+      width: this.width,
+      height: this.height
+    }
   };
 };
