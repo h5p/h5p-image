@@ -13,6 +13,14 @@ H5P.Image = function (params, id) {
   }
   else {
     this.source = H5P.getPath(params.file.path, id);
+    
+    // Use new copyright information if available. Fallback to old.
+    if (params.file.copyrights !== undefined && params.file.copyrights.length) {
+      this.copyrights = params.file.copyrights;
+    }
+    else if (params.copyright !== undefined) {
+      this.copyrights = [params.copyright];
+    }
   }
 
   this.alt = params.alt !== undefined ? params.alt : 'New image';
@@ -31,4 +39,15 @@ H5P.Image = function (params, id) {
 H5P.Image.prototype.attach = function ($wrapper) {
   var extraAttr = this.title === undefined ? '' : ' title="' + this.title + '"';
   $wrapper.addClass('h5p-image').html('<img width="100%" height="100%" src="' + this.source + '" alt="' + this.alt + '"' + extraAttr + '/>');
+};
+
+/**
+ * Gather copyright information for the current content.
+ *
+ * @returns {Object} Copyright information
+ */
+H5P.Image.prototype.getCopyrights = function () {
+  return {
+    copyrights: H5P.getCopyrightList(this.copyrights)
+  };
 };
