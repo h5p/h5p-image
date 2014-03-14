@@ -36,11 +36,11 @@ H5P.Image = function (params, id) {
     this.height = params.file.height;
     
     // Use new copyright information if available. Fallback to old.
-    if (params.file.copyrights !== undefined && params.file.copyrights.length) {
-      this.copyrights = params.file.copyrights;
+    if (params.file.copyright !== undefined) {
+      this.copyright = params.file.copyright;
     }
     else if (params.copyright !== undefined) {
-      this.copyrights = [params.copyright];
+      this.copyright = params.copyright;
     }
   }
 
@@ -68,8 +68,11 @@ H5P.Image.prototype.attach = function ($wrapper) {
  * @returns {Object} Copyright information
  */
 H5P.Image.prototype.getCopyrights = function () {
+  if (this.copyright === undefined) {
+    return;
+  }
   return {
-    copyrights: H5P.getCopyrightList(this.copyrights),
+    copyrights: [H5P.getCopyrightFields(this.copyright)],
     thumbnail: {
       source: this.source,
       width: this.width,
