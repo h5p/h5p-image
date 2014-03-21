@@ -65,18 +65,18 @@ H5P.Image.prototype.attach = function ($wrapper) {
 /**
  * Gather copyright information for the current content.
  *
- * @returns {Object} Copyright information
+ * @returns {H5P.ContentCopyright}
  */
 H5P.Image.prototype.getCopyrights = function () {
   if (this.copyright === undefined) {
     return;
   }
-  return {
-    copyrights: [H5P.getCopyrightFields(this.copyright)],
-    thumbnail: {
-      source: this.source,
-      width: this.width,
-      height: this.height
-    }
-  };
+  
+  var info = new H5P.ContentCopyrights();
+  
+  var image = new H5P.MediaCopyright(this.copyright);
+  image.setThumbnail(new H5P.Thumbnail(this.source, this.width, this.height));
+  info.addMedia(image);
+  
+  return info;
 };
