@@ -15,7 +15,7 @@ H5P.Image = function (params, id) {
     this.source = H5P.getPath(params.file.path, id);
     this.width = params.file.width;
     this.height = params.file.height;
-    
+
     // Use new copyright information if available. Fallback to old.
     if (params.file.copyright !== undefined) {
       this.copyright = params.file.copyright;
@@ -52,12 +52,15 @@ H5P.Image.prototype.getCopyrights = function () {
   if (this.copyright === undefined) {
     return;
   }
-  
+
   var info = new H5P.ContentCopyrights();
-  
+
   var image = new H5P.MediaCopyright(this.copyright);
   image.setThumbnail(new H5P.Thumbnail(this.source, this.width, this.height));
   info.addMedia(image);
-  
+
+  // Remove sub level for image
+  info.removeSubLevel();
+
   return info;
 };
