@@ -21,7 +21,8 @@
           "label": "Auteur"
         },
         {
-          "label": "Source"
+          "label": "Source",
+          "regexp": {}
         },
         {
           "label": "Licence",
@@ -67,8 +68,7 @@
       ]
     },
     {
-      "label": "Légende",
-      "default": "Légende"
+      "label": "Légende"
     }
   ]
 }
