@@ -42,18 +42,20 @@ var H5P = H5P || {};
   H5P.Image.prototype.attach = function ($wrapper) {
     var self = this;
 
-    var $img = $('<img>', {
-      width: '100%',
-      height: '100%',
-      src: this.source,
-      alt: this.alt,
-      title: this.title === undefined ? '' : this.title,
-      load: function () {
-        self.trigger('loaded');
-      }
-    });
+    if (self.$img === undefined) {
+      self.$img = $('<img>', {
+        width: '100%',
+        height: '100%',
+        src: this.source,
+        alt: this.alt,
+        title: this.title === undefined ? '' : this.title,
+        load: function () {
+          self.trigger('loaded');
+        }
+      });
+    }
 
-    $wrapper.addClass('h5p-image').append($img);
+    $wrapper.addClass('h5p-image').html(self.$img);
   };
 
   /**
