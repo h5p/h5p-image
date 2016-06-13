@@ -1,0 +1,79 @@
+{
+  "semantics": [
+    {
+      "label": "Bild"
+    },
+    {
+      "label": "Alternativer Text",
+      "description": "Erforderlich. Wenn der Browser das Bild nicht laden kann, dann wird dieses Bild stattdessen angezeigt. Wird auch von Readspeaker verwendet."
+    },
+    {
+      "label": "Hovertext",
+      "description": "Optional. Dieser Text wird angezeigt, wenn der Benutzer mit seinem Cursor über das Bild fährt.",
+    },
+    {
+      "label": "Urheberrechtsinformationen",
+      "fields": [
+        {
+          "label": "Titel",
+          "placeholder": "La Gioconda",
+        },
+        {
+          "label": "Autor",
+          "placeholder": "Leonardo da Vinci",
+        },
+        {
+          "label": "Quelle",
+          "placeholder": "http://en.wikipedia.org/wiki/Mona_Lisa",
+          "regexp": {
+          }
+        },
+        {
+          "label": "Lizenz",
+          "default": "U",
+          "options": [
+            {
+              "label": "Nicht veröffentlicht"
+            },
+            {
+              "label": "Attribution"
+            },
+            {
+              "label": "Attribution-Weitergabe unter gleichen Bedingungen"
+            },
+            {
+              "label": "Attribution-Keine Änderungen"
+            },
+            {
+              "label": "Attribution-Nicht kommerziell"
+            },
+            {
+              "label": "Attribution-Nicht kommerziell, Weitergabe unter gleichen Bedingungen"
+            },
+            {
+              "label": "Attribution-Nicht kommerziell, keine Änderungen"
+            },
+            {
+              "label": "Allgemeine Veröffentlichungserlaubnis"
+            },
+            {
+              "label": "Gemeinfreiheit"
+            },
+            {
+              "label": "Gemeinfreiheit Verzichtserklärung und Lizenz"
+            },
+            {
+              "label": "Public Domain Mark"
+            },
+            {
+              "label": "Urheberrecht"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Bildinhaltsname",
+      "default": "Bild"
+    }
+  ]
