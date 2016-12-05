@@ -51,7 +51,7 @@ var H5P = H5P || {};
     var source = this.source;
 
     if (self.$img === undefined) {
-      if ($wrapper.closest('.h5p-course-presentation').length > 0 && this.placeholder) {
+      if ($wrapper[0].clientWidth >= 375 && this.placeholder) {
         source = this.sourceBig;
       }
 
