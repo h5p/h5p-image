@@ -15,21 +15,17 @@
       "label": "Copyright information",
       "fields": [
         {
-          "label": "Title",
-          "placeholder": "La Gioconda"
+          "label": "Title"
         },
         {
-          "label": "Author",
-          "placeholder": "Leonardo da Vinci"
+          "label": "Author"
         },
         {
           "label": "Source",
-          "placeholder": "http://en.wikipedia.org/wiki/Mona_Lisa",
           "regexp": {}
         },
         {
           "label": "License",
-          "default": "U",
           "options": [
             {
               "label": "Undisclosed"
@@ -72,8 +68,7 @@
       ]
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label": "Image content name"
     }
   ]
 }
