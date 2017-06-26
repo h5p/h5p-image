@@ -15,19 +15,23 @@
       "label":"Informasjon om opphavsrett",
       "fields":[
         {
-          "label":"Tittel"
+          "label":"Tittel",
+          "placeholder":"La Gioconda"
         },
         {
-          "label":"Opphavsmann"
+          "label":"Opphavsmann",
+          "placeholder":"Leonardo da Vinci"
         },
         {
           "label":"Kilde",
+          "placeholder":"http://en.wikipedia.org/wiki/Mona_Lisa",
           "regexp":{
             
           }
         },
         {
           "label":"Lisens",
+          "default":"U",
           "options":[
             {
               "label":"Ukjent"
@@ -70,7 +74,8 @@
       ]
     },
     {
-      "label":"Innholdsnavn for bilde"
+      "label":"Innholdsnavn for bilde",
+      "default":"Image"
     }
   ]
 }
