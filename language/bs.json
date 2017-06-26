@@ -16,7 +16,7 @@
       "fields":[
         {
           "label":"Naziv",
-          "placeholder":"Mona liza"
+          "placeholder":"La Gioconda"
         },
         {
           "label":"Autor",
@@ -75,7 +75,7 @@
     },
     {
       "label":"Naziv slike",
-      "default":"Slika"
+      "default":"Image"
     }
   ]
 }
