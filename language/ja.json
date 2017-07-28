@@ -74,7 +74,7 @@
       ]
     },
     {
-      "label":"Image content name",
+      "label":"画像のコンテンツ名",
       "default":"画像"
     }
   ]
