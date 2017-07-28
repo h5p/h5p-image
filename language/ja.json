@@ -9,10 +9,10 @@
     },
     {
       "label":"ホバーテキスト",
-      "description":"Optional. This text is displayed when the user hovers his pointing device over the image."
+      "description":"省略可能です。このテキストは、ユーザーが画像の上にポインティング デバイスを置いたときに表示されます。"
     },
     {
-      "label":"Copyright information",
+      "label":"著作権情報",
       "fields":[
         {
           "label":"タイトル",
