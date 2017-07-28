@@ -1,36 +1,36 @@
 {
   "semantics":[
     {
-      "label":"Image"
+      "label":"画像"
     },
     {
-      "label":"Alternative text",
-      "description":"Required. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+      "label":"代替テキスト",
+      "description":"必須。ブラウザーが画像をロードできない場合は、このテキストが代わりに表示されます。また、 readspeaker によって使用されます。"
     },
     {
-      "label":"Hover text",
+      "label":"ホバーテキスト",
       "description":"Optional. This text is displayed when the user hovers his pointing device over the image."
     },
     {
       "label":"Copyright information",
       "fields":[
         {
-          "label":"Title",
+          "label":"タイトル",
           "placeholder":"La Gioconda"
         },
         {
-          "label":"Author",
+          "label":"作者",
           "placeholder":"Leonardo da Vinci"
         },
         {
-          "label":"Source",
+          "label":"ソース",
           "placeholder":"http://en.wikipedia.org/wiki/Mona_Lisa",
           "regexp":{
             
           }
         },
         {
-          "label":"License",
+          "label":"ライセンス",
           "default":"U",
           "options":[
             {
@@ -75,7 +75,7 @@
     },
     {
       "label":"Image content name",
-      "default":"Image"
+      "default":"画像"
     }
   ]
 }
