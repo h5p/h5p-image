@@ -74,7 +74,6 @@ var H5P = H5P || {};
     }
 
     $wrapper.addClass('h5p-image').html(self.$img);
-    $wrapper.attr('tabindex', 0);
   };
 
   /**
