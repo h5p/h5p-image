@@ -3,7 +3,8 @@
     "name": "file",
     "type": "image",
     "label": "Image",
-    "importance": "high"
+    "importance": "high",
+    "hideCopyright": true
   },
   {
     "name": "alt",
