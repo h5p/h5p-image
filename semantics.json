@@ -4,7 +4,7 @@
     "type": "image",
     "label": "Image",
     "importance": "high",
-    "hideCopyright": true
+    "disableCopyright": true
   },
   {
     "name": "alt",
