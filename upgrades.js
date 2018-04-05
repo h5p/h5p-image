@@ -15,12 +15,15 @@ H5PUpgrades['H5P.Image'] = (function ($) {
         }
 
         if (copyright) {
+          var years = [];
+          if (copyright.year) {
           // Try to find start and end year
-          var years = copyright.year
+          years = copyright.year
             .replace(' ', '')
             .replace('--', '-') // Try to check for LaTeX notation
             .split('-');
-          var yearFrom = new Date(years[0]).getFullYear();
+          }
+          var yearFrom = (years.length > 0) ? new Date(years[0]).getFullYear() : undefined;
           var yearTo = (years.length > 0) ? new Date(years[1]).getFullYear() : undefined;
 
           // Build metadata object
