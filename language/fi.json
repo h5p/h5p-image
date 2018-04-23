@@ -1,36 +1,36 @@
 {
   "semantics":[
     {
-      "label":"Image"
+      "label":"Kuva"
     },
     {
-      "label":"Alternative text",
-      "description":"Required. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+      "label":"Vaihtoehtoinen kuvaus",
+      "description":"Vaaditaan. Näytetään, jos selain ei saa ladattua kuvaa. Kuvausta käyttävät myös ruudunlukijasovellukset."
     },
     {
-      "label":"Hover text",
-      "description":"Optional. This text is displayed when the user hovers his pointing device over the image."
+      "label":"Hover",
+      "description":"Valinnainen. Näytetään, kun käyttäjä pitää kursosia kuvan päällä."
     },
     {
-      "label":"Copyright information",
+      "label":"Tekijänoikeustiedot",
       "fields":[
         {
-          "label":"Title",
-          "placeholder":"La Gioconda"
+          "label":"Nimi",
+          "placeholder":"Mona Lisa"
         },
         {
-          "label":"Author",
+          "label":"Tekijä",
           "placeholder":"Leonardo da Vinci"
         },
         {
-          "label":"Source",
+          "label":"Lähde",
           "placeholder":"http://en.wikipedia.org/wiki/Mona_Lisa",
           "regexp":{
             
           }
         },
         {
-          "label":"License",
+          "label":"Lisenssi",
           "default":"U",
           "options":[
             {
@@ -74,8 +74,8 @@
       ]
     },
     {
-      "label":"Image content name",
-      "default":"Image"
+      "label":"Sisältötyypin nimi",
+      "default":"Kuva"
     }
   ]
 }
