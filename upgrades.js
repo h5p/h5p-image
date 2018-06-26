@@ -39,8 +39,12 @@ H5PUpgrades['H5P.Image'] = (function ($) {
 
           extras.metadata = metadata;
 
-          delete parameters.file.copyright;
-          delete parameters.copyright;
+          if (parameters && parameters.file) {
+            delete parameters.file.copyright;
+          }
+          if (parameters) {
+            delete parameters.copyright;
+          }
         }
 
         // Done
