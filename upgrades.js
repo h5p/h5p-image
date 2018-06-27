@@ -1,7 +1,7 @@
 /** @namespace H5PUpgrades */
 var H5PUpgrades = H5PUpgrades || {};
 
-H5PUpgrades['H5P.Image'] = (function ($) {
+H5PUpgrades['H5P.Image'] = (function () {
   return {
     1: {
       1: function (parameters, finished, extras) {
@@ -39,12 +39,10 @@ H5PUpgrades['H5P.Image'] = (function ($) {
 
           extras.metadata = metadata;
 
-          if (parameters && parameters.file) {
+          if (parameters.file) {
             delete parameters.file.copyright;
           }
-          if (parameters) {
-            delete parameters.copyright;
-          }
+          delete parameters.copyright;
         }
 
         // Done
@@ -52,4 +50,4 @@ H5PUpgrades['H5P.Image'] = (function ($) {
       }
     }
   };
-})(H5P.jQuery);
+})();
