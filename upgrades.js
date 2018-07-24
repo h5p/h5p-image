@@ -7,7 +7,7 @@ H5PUpgrades['H5P.Image'] = (function () {
       1: function (parameters, finished, extras) {
         // Use new copyright information if available. Fallback to old.
         var copyright;
-        if (parameters && parameters.file && parameters.file.copyright !== undefined) {
+        if (parameters.file && parameters.file.copyright !== undefined) {
           copyright = parameters.file.copyright;
         }
         else if (parameters && parameters.copyright !== undefined) {
