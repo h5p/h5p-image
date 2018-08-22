@@ -1,64 +1,64 @@
 {
   "semantics":[
     {
-      "label":"Image"
+      "label":"Obraz"
     },
     {
-      "label":"Alternative text",
-      "description":"Required. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+      "label":"Tekst alternatywny",
+      "description":"Wymagany. Ten tekst zostanie wyświetlony, jeśli przeglądarka nie zdoła załadować obrazu. Potrzebny także dla czytników ekranu."
     },
     {
-      "label":"Hover text",
-      "description":"Optional. This text is displayed when the user hovers his pointing device over the image."
+      "label":"Tekst w dymku",
+      "description":"Opcjonalna. Ten tekst zostanie wyświetlony, gdy użytkownik najedzie kursorem na obraz."
     },
     {
-      "label":"Copyright information",
+      "label":"Informacja o prawach autorskich",
       "fields":[
         {
-          "label":"Title",
-          "placeholder":"La Gioconda"
+          "label":"Tytuł",
+          "placeholder":"Dama z gronostajem"
         },
         {
-          "label":"Author",
+          "label":"Autor",
           "placeholder":"Leonardo da Vinci"
         },
         {
-          "label":"Source",
-          "placeholder":"http://en.wikipedia.org/wiki/Mona_Lisa",
+          "label":"Źródło",
+          "placeholder":"https://pl.wikipedia.org/wiki/Dama_z_gronostajem",
           "regexp":{
             
           }
         },
         {
-          "label":"License",
+          "label":"Licencja",
           "default":"U",
           "options":[
             {
-              "label":"Undisclosed"
+              "label":"Nieokreślona"
             },
             {
-              "label":"Attribution"
+              "label":"CC BY: Uznanie autorstwa"
             },
             {
-              "label":"Attribution-ShareAlike"
+              "label":"CC BY-SA: Uznanie autorstwa-Na tych samych warunkach"
             },
             {
-              "label":"Attribution-NoDerivs"
+              "label":"CC BY-ND: Uznanie autorstwa-Bez utworów zależnych"
             },
             {
-              "label":"Attribution-NonCommercial"
+              "label":"CC BY-NC: Uznanie autorstwa-Użycie niekomercyjne"
             },
             {
-              "label":"Attribution-NonCommercial-ShareAlike"
+              "label":"CC BY-NC-SA: Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach"
             },
             {
-              "label":"Attribution-NonCommercial-NoDerivs"
+              "label":"CC BY-NC-ND: Uznanie autorstwa-Użycie niekomercyjne-Bez utworów zależnych"
             },
             {
-              "label":"General Public License"
+              "label":"GPL: General Public License"
             },
             {
-              "label":"Public Domain"
+              "label":"Domena publiczna"
             },
             {
               "label":"Public Domain Dedication and Licence"
@@ -67,15 +67,15 @@
               "label":"Public Domain Mark"
             },
             {
-              "label":"Copyright"
+              "label":"Pełne prawa autorskie"
             }
           ]
         }
       ]
     },
     {
-      "label":"Image content name",
-      "default":"Image"
+      "label":"Nazwa obrazu",
+      "default":"Obraz"
     }
   ]
 }
