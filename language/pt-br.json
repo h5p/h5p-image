@@ -25,9 +25,7 @@
         {
           "label":"Fonte",
           "placeholder":"https://pt.wikipedia.org/wiki/Mona_Lisa",
-          "regexp":{
-            
-          }
+          "regexp":{}
         },
         {
           "label":"Licença",
