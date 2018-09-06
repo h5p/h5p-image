@@ -1,0 +1,79 @@
+{
+  "semantics":[
+    {
+      "label":"Imagem"
+    },
+    {
+      "label":"Texto alternativo",
+      "description":"Obrigatório. Se o navegador não for capaz de exibir a imagem, este texto será exibido. Também utilizado por leitores de tela."
+    },
+    {
+      "label":"Texto flutuante",
+      "description":"Opcional. Este texto será exibido se o usuário colocar o ponteiro sobre a imagem."
+    },
+    {
+      "label":"Informações de direitos autorais",
+      "fields":[
+        {
+          "label":"Título",
+          "placeholder":"Mona Lisa"
+        },
+        {
+          "label":"Autor",
+          "placeholder":"Leonardo da Vinci"
+        },
+        {
+          "label":"Fonte",
+          "placeholder":"https://pt.wikipedia.org/wiki/Mona_Lisa",
+          "regexp":{}
+        },
+        {
+          "label":"Licença",
+          "default":"U",
+          "options":[
+            {
+              "label":"Não revelado"
+            },
+            {
+              "label":"Atribuição"
+            },
+            {
+              "label":"Atribuição-CompartilhaIgual"
+            },
+            {
+              "label":"Atribuição-SemDerivações"
+            },
+            {
+              "label":"Atribuição-NãoComercial"
+            },
+            {
+              "label":"Atribuição-NãoComercial-CompartilhaIgual"
+            },
+            {
+              "label":"Atribuição-NãoComercial-SemDerivações"
+            },
+            {
+              "label":"Licença Pública Geral (GPL)"
+            },
+            {
+              "label":"Domínio Público"
+            },
+            {
+              "label":"Dedicação e Licença de Domínio Público"
+            },
+            {
+              "label":"Marca de Domínio Público"
+            },
+            {
+              "label":"Direitos autorais"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label":"Nome do conteúdo de imagem",
+      "default":"Imagem"
+    }
+  ]
+}
