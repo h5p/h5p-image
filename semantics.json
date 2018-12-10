@@ -18,7 +18,7 @@
     "type": "text",
     "label": "Hover text",
     "importance": "low",
-    "description": "Optional. This text is displayed when the user hovers his pointing device over the image.",
+    "description": "Optional. This text is displayed when the users hover their pointing device over the image.",
     "optional": true
   },
   {
