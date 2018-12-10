@@ -5,7 +5,7 @@
     },
     {
       "label": "Alternativtext",
-      "description": "Erforderlich. Falls das Bild nicht geladen werden kann, wird dieser Text stattdessen angezeigt. Wird auch von \"Readspeakers\" genutzt."
+      "description": "Erforderlich. Falls das Bild nicht geladen werden kann, wird dieser Text stattdessen angezeigt. Wird auch zum Vorlesen von Bildschirmtexten genutzt."
     },
     {
       "label": "Hover-Text",
