@@ -1,19 +1,19 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "Pilt"
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
+      "label": "Alternatiivtekst",
+      "description": "Nõutud. Kui brauser ei saa pilti laadida, siis näidatakse seda teksti. Samuti kasutatakse \"text-to-speech\" lugejais."
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the users hover their pointing device over the image."
+      "label": "Hõljuva kursori tekst",
+      "description": "Valikuline. Seda teksti näidatakse, kui kasutaja hõljutab kursorit pildi kohal."
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label": "Pildisisu nimi",
+      "default": "Pilt"
     }
   ]
 }
