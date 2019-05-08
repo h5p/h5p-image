@@ -1,19 +1,19 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "Изображение"
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
+      "label": "Альтернативный текст",
+      "description": "Обязательный. Если браузер не может загрузить изображение, этот текст будет отображаться вместо него. Также используется \"озвучкой текста\"."
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the users hover their pointing device over the image."
+      "label": "Текст при наведении",
+      "description": "По желанию. Этот текст отображается, когда пользователи наводят указатель мыши на изображение."
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label": "Название содержимого изображения",
+      "default": "Изображение"
     }
   ]
 }
