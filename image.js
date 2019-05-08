@@ -23,8 +23,8 @@ var H5P = H5P || {};
 
     this.alt = params.alt !== undefined ? params.alt : 'New image';
 
-    if (extras.metadata && extras.metadata.title !== undefined) {
-      this.title = extras.metadata.title;
+    if (params.title !== undefined) {
+      this.title = params.title;
     }
   };
 
