@@ -1,19 +1,19 @@
 {
-  "semantics": [
+  "semantics":[
     {
-      "label": "Image"
+      "label":"Εικόνα"
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
+      "label":"Εναλλακτικό κείμενο",
+      "description":"Αυτό το κείμενο εμφανίζεται σε περίπτωση που ο φυλλομετρητής αδυνατεί να φορτώσει την εικόνα. Χρησιμοποιείται επίσης και κατά την ακουστική υποβοήθηση. (απαιτείται)"
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the users hover their pointing device over the image."
+      "label":"Επεξηγηματικό κείμενο",
+      "description":"Αυτό το κείμενο εμφανίζεται όταν ο χρήστης περνά τον κέρσορα πάνω από την εικόνα. (προαιρετικά)"
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label":"Όνομα περιεχομένου εικόνας",
+      "default":"Εικόνα"
     }
   ]
 }
