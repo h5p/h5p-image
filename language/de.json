@@ -8,8 +8,8 @@
       "description": "Erforderlich. Falls das Bild nicht geladen werden kann, wird dieser Text stattdessen angezeigt. Wird auch zum Vorlesen von Bildschirmtexten genutzt."
     },
     {
-      "label": "Hover-Text",
-      "description": "Optional. Dieser Text wird angezeigt, wenn der Mauszeiger über dem Bild schwebt."
+      "label": "Mouseover-Text",
+      "description": "Optional. Dieser Text wird angezeigt, wenn der Mauszeiger über dem Bild ruht."
     },
     {
       "label": "Name des Bildinhalts",
