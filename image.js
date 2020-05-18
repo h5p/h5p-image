@@ -48,8 +48,10 @@ var H5P = H5P || {};
           height: '100%',
           class: 'h5p-placeholder',
           title: this.title === undefined ? '' : this.title,
-          load: function () {
-            self.trigger('loaded');
+          on: {
+            load: function () {
+              self.trigger('loaded');
+            }
           }
         });
       } else {
@@ -59,8 +61,10 @@ var H5P = H5P || {};
           src: source,
           alt: this.alt,
           title: this.title === undefined ? '' : this.title,
-          load: function () {
-            self.trigger('loaded');
+          on: {
+            load: function () {
+              self.trigger('loaded');
+            }
           }
         });
       }
