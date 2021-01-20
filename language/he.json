@@ -1,19 +1,19 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "תמונה"
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
+      "label": "טקסט חלופי",
+      "description": "נחוץ. אם הדפדפן לא יכול להעלות את התמונה טקסט זה יוצג במקום. בשימוש גם על ידי קוראי \"מטקסט לדיבור\"."
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the users hover their pointing device over the image."
+      "label": "תווית המוצגת במעבר סמן העכבר",
+      "description": "אופציונלי. טקסט זה מוצג כאשר המשתמשים מעבירים את מכשיר ההצבעה שלהם מעל התמונה."
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label": "שם תוכן תמונה",
+      "default": "תמונה"
     }
   ]
 }
