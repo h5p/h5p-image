@@ -8,7 +8,7 @@
       "description": "Gerekli alan. Tarayıcı resmi yükleyemezse, bunun yerine bu metin görüntülenecektir. Ayrıca \"konuşma sentezleyiciler\" tarafından da kullanılır."
     },
     {
-      "label": "Hover text",
+      "label": "Fare imleci tanıtım metni",
       "description": "İsteğe bağlı alan. Bu metin, kullanıcılar fare imlecini resmin üzerine getirdiğinde görüntülenir."
     },
     {
