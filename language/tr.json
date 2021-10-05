@@ -1,19 +1,19 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "Resim"
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
+      "label": "Alternatif metin",
+      "description": "Gerekli. Tarayıcı resmi yükleyemezse, bunun yerine bu metin görüntülenecektir. Ayrıca \"metinden-konuşmaya\" okuyucular tarafından da kullanılır."
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the users hover their pointing device over the image."
+      "label": "Üzerine gelince metin",
+      "description": "İsteğe bağlı. Bu metin, kullanıcılar işaretleme cihazlarını (Ör: bilgisayar faresi) görüntünün üzerine getirdiğinde görüntülenir."
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label": "Resim içerik adı",
+      "default": "Resim"
     }
   ]
 }
