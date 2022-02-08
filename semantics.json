@@ -27,7 +27,7 @@
           "equals": false
         }
       ],
-      "nullOnHide": true
+      "nullWhenHidden": true
     }
   },
   {
