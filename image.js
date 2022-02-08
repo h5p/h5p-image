@@ -21,7 +21,7 @@ var H5P = H5P || {};
       this.height = params.file.height;
     }
 
-    this.alt = params.alt !== undefined ? params.alt : '';
+    this.alt = (!params.decorative && params.alt !== undefined) ? params.alt : '';
 
     if (params.title !== undefined) {
       this.title = params.title;
