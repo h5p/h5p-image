@@ -25,5 +25,12 @@
   "metadataSettings": {
     "disable": 0,
     "disableExtraTitleField": 1
-  }
+  },
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.ShowWhen",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
 }
