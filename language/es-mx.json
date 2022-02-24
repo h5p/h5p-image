@@ -4,6 +4,10 @@
       "label": "Imagen"
     },
     {
+      "label": "Decorative only",
+      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+    },
+    {
       "label": "Texto alternativo",
       "description": "Necesario. Si el navegador no puede cargar la imagen este texto será mostrado en su lugar. También es usado por lectores de \"texto-hablado\"."
     },
