@@ -4,8 +4,8 @@
       "label": "Attēls"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Tikai dekoratīvs",
+      "description": "Iespējojiet šo opciju, ja attēls ir tikai dekoratīvs un lapas saturam nepievieno nekādu informāciju. Ekrāna lasītāji to ignorēs, un tam netiks piešķirts alternatīvs teksts."
     },
     {
       "label": "Alternatīvais teksts",
