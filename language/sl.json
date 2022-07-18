@@ -4,8 +4,8 @@
       "label": "Slika"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Označi kot dekorativno",
+      "description": "Oznaka opredeljuje sliko kot okrasno, ki ne dodaja vsebinskih informacij. Bralnik zaslona jo lahko zato prezre in ne posredujejo alternativnega besedila."
     },
     {
       "label": "Nadomestno besedilo",
