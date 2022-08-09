@@ -4,8 +4,8 @@
       "label": "Εικόνα"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Μόνο διακοσμητική",
+      "description": "Ενεργοποιήστε αυτήν την επιλογή εάν η εικόνα είναι καθαρά διακοσμητική και δεν προσθέτει πληροφορίες στο περιεχόμενο της σελίδας. Θα αγνοηθεί από τους αναγνώστες οθόνης και δεν θα δοθεί εναλλακτικό κείμενο."
     },
     {
       "label": "Εναλλακτικό κείμενο",
