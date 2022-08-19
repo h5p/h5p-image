@@ -4,8 +4,8 @@
       "label": "Irudia"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Apaingarria baino ez",
+      "description": "Aukera hau gaitu ezazu irudia apaingarria baino ez bada eta ez badio orriko edukiari informaziorik gehitzen. Pantaila irakurgailuek ez dute kontuan izango eta ez diote ordezko testurik emango."
     },
     {
       "label": "Ordezko testua",
