@@ -26,7 +26,7 @@ var H5P = H5P || {};
       '';
 
     if (params.title !== undefined) {
-      this.title = params.title;
+      this.title = this.stripHTML(this.htmlDecode(params.title));
     }
   };
 
@@ -49,7 +49,6 @@ var H5P = H5P || {};
           width: '100%',
           height: '100%',
           class: 'h5p-placeholder',
-          title: this.title === undefined ? '' : this.title,
           on: {
             load: function () {
               self.trigger('loaded');
@@ -62,7 +61,6 @@ var H5P = H5P || {};
           height: '100%',
           src: source,
           alt: this.alt,
-          title: this.title === undefined ? '' : this.title,
           on: {
             load: function () {
               self.trigger('loaded');
@@ -73,6 +71,14 @@ var H5P = H5P || {};
     }
 
     $wrapper.addClass('h5p-image').html(self.$img);
+
+    // Use custom tooltip instead of title attribute (causes a11y issues)
+    if (this.title) {
+      H5P.Tooltip($wrapper.get(0), {
+        text: this.title,
+        classes: ['h5p-image-tooltip']
+      });
+    }
   };
 
   /**

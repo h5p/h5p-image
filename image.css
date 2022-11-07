@@ -7,3 +7,9 @@
   background: url('placeholder.svg');
   background-size: cover;
 }
+.h5p-image .h5p-image-tooltip {
+  bottom: 0;
+  left: auto;
+  right: 0;
+  transform: none;
+}
