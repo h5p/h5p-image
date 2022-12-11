@@ -16,15 +16,17 @@ var H5P = H5P || {};
       this.placeholder = true;
     }
     else {
-      this.source = H5P.getPath(params.file.path, id);
-      this.width = params.file.width;
-      this.height = params.file.height;
-    }
-
-    this.alt = (!params.decorative && params.alt !== undefined) ? params.alt : '';
-
-    if (params.title !== undefined) {
-      this.title = params.title;
+        this.imageSet = []
+        for(let i = 0;i<params.file.length;i++){
+            const image = {
+                source: H5P.getPath(params.file[i].path, id),
+                width: params.file[i].width,
+                height: params.file[i].height,
+                alt: (!params.decorative[i] && params.alt[i] !== undefined) ? params.alt[i] : '',
+                title: params.title[i] ? '' : params.title[i]
+            }
+            this.imageSet.append(image);
+        }
     }
   };
 
@@ -39,7 +41,7 @@ var H5P = H5P || {};
    */
   H5P.Image.prototype.attach = function ($wrapper) {
     var self = this;
-    var source = this.source;
+    var imageSet = this.imageSet;
 
     if (self.$img === undefined) {
       if(self.placeholder) {
@@ -55,18 +57,23 @@ var H5P = H5P || {};
           }
         });
       } else {
-        self.$img = $('<img>', {
-          width: '100%',
-          height: '100%',
-          src: source,
-          alt: this.alt,
-          title: this.title === undefined ? '' : this.title,
-          on: {
-            load: function () {
-              self.trigger('loaded');
-            }
+        self.$img = $('<div>', {
+            class: 'h5p-placeholder',
+          });
+          for(let i = 0;i<imageSet.length;i++){
+            self.$img.append($('<img>', {
+                width: '100%',
+                height: '100%',
+                src: imageSet[i].source,
+                alt: imageSet[i].alt,
+                title: imageSet[i].title,
+                on: {
+                    load: function () {
+                    self.trigger('loaded');
+                    }
+                }
+              }));
           }
-        });
       }
     }
 
