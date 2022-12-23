@@ -4,8 +4,8 @@
       "label": "Imagem"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Apenas decorativa",
+      "description": "Selecionar esta opção se a imagem for apenas decorativa e não acrescentar qualquer informação ao conteúdo da página. Será assim ignorada pelos leitores de ecrã, e não lhe será atribuído um texto alternativo.."
     },
     {
       "label": "Texto alternativo",
