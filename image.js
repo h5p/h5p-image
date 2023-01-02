@@ -21,10 +21,12 @@ var H5P = H5P || {};
       this.height = params.file.height;
     }
 
-    this.alt = (!params.decorative && params.alt !== undefined) ? params.alt : '';
+    this.alt = (!params.decorative && params.alt !== undefined) ?
+      this.stripHTML(this.htmlDecode(params.alt)) :
+      '';
 
     if (params.title !== undefined) {
-      this.title = params.title;
+      this.title = this.stripHTML(this.htmlDecode(params.title));
     }
   };
 
@@ -47,7 +49,6 @@ var H5P = H5P || {};
           width: '100%',
           height: '100%',
           class: 'h5p-placeholder',
-          title: this.title === undefined ? '' : this.title,
           on: {
             load: function () {
               self.trigger('loaded');
@@ -60,7 +61,6 @@ var H5P = H5P || {};
           height: '100%',
           src: source,
           alt: this.alt,
-          title: this.title === undefined ? '' : this.title,
           on: {
             load: function () {
               self.trigger('loaded');
@@ -71,6 +71,37 @@ var H5P = H5P || {};
     }
 
     $wrapper.addClass('h5p-image').html(self.$img);
+
+    // Use custom tooltip instead of title attribute (causes a11y issues)
+    if (this.title) {
+      H5P.Tooltip($wrapper.get(0), {
+        text: this.title,
+        classes: ['h5p-image-tooltip']
+      });
+    }
+  };
+
+  /**
+   * Retrieve decoded HTML encoded string.
+   *
+   * @param {string} input HTML encoded string.
+   * @returns {string} Decoded string.
+   */
+  H5P.Image.prototype.htmlDecode = function (input) {
+    const dparser = new DOMParser().parseFromString(input, 'text/html');
+    return dparser.documentElement.textContent;
+  };
+
+  /**
+   * Retrieve string without HTML tags.
+   *
+   * @param {string} input Input string.
+   * @returns {string} Output string.
+   */
+  H5P.Image.prototype.stripHTML = function (html) {
+    const div = document.createElement('div');
+    div.innerHTML = html;
+    return div.textContent || div.innerText || '';
   };
 
   return H5P.Image;
