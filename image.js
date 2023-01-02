@@ -76,7 +76,8 @@ var H5P = H5P || {};
     if (this.title) {
       H5P.Tooltip($wrapper.get(0), {
         text: this.title,
-        classes: ['h5p-image-tooltip']
+        classes: ['h5p-image-tooltip'],
+        position: 'bottom'
       });
     }
   };
