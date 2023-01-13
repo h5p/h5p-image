@@ -1,0 +1,23 @@
+{
+  "semantics": [
+    {
+      "label": "Paveikslėlis"
+    },
+    {
+      "label": "Tik dekoratyvus",
+      "description": "Įgalinkite šią parinktį, jei vaizdas yra tik dekoratyvus ir neprideda jokios informacijos turinio puslapyje. Ekrano skaitytuvai jo nepaisys ir neteiks jokio alternatyvaus teksto."
+    },
+    {
+      "label": "Alternatyvus tekstas",
+      "description": "Privaloma. Šis tekstas bus rodomas vietoj vaizdo, kai naršykklė negalės įkelti jo. Taip pat naudojama \"text-to-speech\" skaityklių."
+    },
+    {
+      "label": "Tekstas, matomas užvedus",
+      "description": "Neprivaloma. Tekstas rodomas kai naudotojai užveda pelės žymekliu virš paveikslėlio."
+    },
+    {
+      "label": "Turinio paveikslėlio pavadinimas",
+      "default": "Paveikslėlis"
+    }
+  ]
+}
