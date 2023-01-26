@@ -5,18 +5,18 @@
     },
     {
       "label": "Tik dekoratyvus",
-      "description": "Įgalinkite šią parinktį, jei vaizdas yra tik dekoratyvus ir neprideda jokios informacijos turinio puslapyje. Ekrano skaitytuvai jo nepaisys ir neteiks jokio alternatyvaus teksto."
+      "description": "Įjunkite šią parinktį, jei vaizdas yra tik dekoratyvus ir neprideda jokios informacijos prie puslapio turinio. Ekrano skaitytuvai jo nepaisys ir nepateiks jokio alternatyvaus teksto."
     },
     {
       "label": "Alternatyvus tekstas",
-      "description": "Privaloma. Šis tekstas bus rodomas vietoj vaizdo, kai naršykklė negalės įkelti jo. Taip pat naudojama \"text-to-speech\" skaityklių."
+      "description": "Būtina. Jei naršyklė negali įkelti vaizdo, vietoj jo bus rodomas šis tekstas. Taip pat naudoja \"teksto į kalbą\" skaitytuvai."
     },
     {
-      "label": "Tekstas, matomas užvedus",
-      "description": "Neprivaloma. Tekstas rodomas kai naudotojai užveda pelės žymekliu virš paveikslėlio."
+      "label": "Užvesto pelės žymeklio tekstas",
+      "description": "Neprivaloma. Šis tekstas rodomas, kai naudotojai užveda žymiklio įrenginį virš paveikslėlio."
     },
     {
-      "label": "Turinio paveikslėlio pavadinimas",
+      "label": "Paveikslėlio turinio pavadinimas",
       "default": "Paveikslėlis"
     }
   ]
