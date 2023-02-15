@@ -45,5 +45,21 @@
     "importance": "low",
     "common": true,
     "default": "Image"
+  },
+  {
+    "name": "startImageAnimation",
+    "type": "text",
+    "label": "Start image animation",
+    "importance": "low",
+    "common": true,
+    "default": "Start image animation"
+  },
+  {
+    "name": "stopImageAnimation",
+    "type": "text",
+    "label": "Stop image animation",
+    "importance": "low",
+    "common": true,
+    "default": "Stop image animation"
   }
 ]

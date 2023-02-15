@@ -13,3 +13,30 @@
   right: 0;
   transform: none;
 }
+.h5p-image .h5p-image-button-play {
+  background-color: rgb(23,104,196);
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'H5PFontAwesome4';
+  height: 3em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  width: 3em;
+}
+.h5p-image .h5p-image-button-play:hover {
+  background-color: rgba(23,104,196,0.9);
+  cursor: pointer;
+}
+.h5p-image .h5p-image-button-play:active {
+  background-color: rgba(23,104,196,0.95);
+}
+.h5p-image .h5p-image-button-play::before {
+  content: "\f04b";
+}
+.h5p-image .h5p-image-button-play.pause::before {
+  content: "\f04c";
+}

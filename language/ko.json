@@ -18,6 +18,14 @@
     {
       "label": "이미지 콘텐츠 이름",
       "default": "이미지"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

@@ -18,6 +18,14 @@
     {
       "label": "图像名称",
       "default": "图像"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

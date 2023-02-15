@@ -18,6 +18,14 @@
     {
       "label": "画像のコンテンツ名",
       "default": "画像"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

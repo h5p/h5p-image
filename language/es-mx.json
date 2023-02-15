@@ -18,6 +18,14 @@
     {
       "label": "Nombre del contenido de la imagen",
       "default": "Imagen"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

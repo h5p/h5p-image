@@ -18,6 +18,14 @@
     {
       "label": "Image content name",
       "default": "Hình"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

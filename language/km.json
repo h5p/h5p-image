@@ -18,6 +18,14 @@
     {
       "label": "ឈ្មោះសម្រាប់មាតិកា «រូបភាព»",
       "default": "រូបភាព"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

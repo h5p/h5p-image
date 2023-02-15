@@ -18,6 +18,14 @@
     {
       "label": "Namn på bildinnehåll",
       "default": "Bild"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

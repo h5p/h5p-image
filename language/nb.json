@@ -18,6 +18,14 @@
     {
       "label": "Innholdsnavn for bilde",
       "default": "Image"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }
