@@ -8,6 +8,10 @@
       "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "ალტერნატიული ტექსტი",
       "description": "აუცილებელი. თუ ბრაუზერი გამოსახულებას არ ჩატვირთავს, ეს ტექსტი მის ნაცვლად გამოჩნდება. ასევე გამოიყენება \"ტექსტის გამხმოვანებლის მიერ\"."
     },

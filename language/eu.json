@@ -8,6 +8,10 @@
       "description": "Aukera hau gaitu ezazu irudia apaingarria baino ez bada eta ez badio orriko edukiari informaziorik gehitzen. Pantaila irakurgailuek ez dute kontuan izango eta ez diote ordezko testurik emango."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Ordezko testua",
       "description": "Beharrezkoa da. Nabigatzaileak ezin badu irudia kargatu, bere ordez testu hau bistaratuko da. Testu-irakurleek ere erabilia."
     },

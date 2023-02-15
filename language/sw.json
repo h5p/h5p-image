@@ -8,6 +8,10 @@
       "description": "Washa chaguo hili ikiwa picha ni ya mapambo tu na haiongezi habari yoyote kwa maudhui kwenye ukurasa. Itapuuzwa na visoma skrini na haitapewa maandishi yoyote mbadala."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Maandishi mbadala",
       "description": "Inahitajika. Ikiwa kivinjari hakiwezi kupakia picha, maandishi haya yataonyeshwa badala yake. Inatumika pia na visomaji “maandishi-kwa-hotuba”."
     },

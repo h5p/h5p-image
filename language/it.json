@@ -8,6 +8,10 @@
       "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Testo alternativo",
       "description": "Richiesto. Se il browser non è in grado di caricare l'immagine sarà visualizzato questo testo. Usato anche per il lettore vocale."
     },

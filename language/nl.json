@@ -8,6 +8,10 @@
       "description": "Schakel deze optie in als de afbeelding puur decoratief is en geen informatie aan de inhoud van de pagina toevoegt. Schermlezers negeren de afbeelding dan en geven ook geen alternatieve tekst."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Alternatieve tekst",
       "description": "Vereist. Als de browser deze afbeelding niet kan laden wordt deze tekst getoond. Ook gebruikt door \"tekst-naar-spraak\" lezers."
     },

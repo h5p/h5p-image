@@ -80,11 +80,13 @@ var H5P = H5P || {};
     $wrapper.addClass('h5p-image').html(self.$img);
 
     /*
-     * Only handling if image is gif and user requests reduced motion.
+     * Only handle if image is gif, animation is essential and user requested
+     * reduced motion
      * @see https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
      */
     if (
       this.mime === 'image/gif' &&
+      !this.params.isAnimationEssential &&
       window.matchMedia('(prefers-reduced-motion: reduce)')?.matches
     ) {
       self.on('loaded', function () {
