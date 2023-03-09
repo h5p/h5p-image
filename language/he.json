@@ -4,8 +4,8 @@
       "label": "תמונה"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "לקישוט בלבד",
+      "description": "הפעלת אפשרות זו אם התמונה היא לקישוט בלבד ואינה מוסיפה מידע כלשהו לתוכן בעמוד. קוראי המסך יתעלמו ממנו ולא יקבל טקסט חלופי."
     },
     {
       "label": "טקסט חלופי",
