@@ -8,6 +8,10 @@
       "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Testun amgen",
       "description": "Angenrheidiol. Os dyw'r porwr yn methu llwytho'r ddelwedd, caiff y testun hwn ei ddangos yn ei lle. Caiff ei ddefnyddio gan ddarllenwyr \"llefaru testun\" hefyd."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Enw cynnwys y ddelwedd",
       "default": "Delwedd"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

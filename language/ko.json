@@ -8,6 +8,10 @@
       "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "대안 텍스트",
       "description": "필수. 브라우저에서 이미지를 로드할 수 없는 경우 이 텍스트가 대신 표시된다. 또한 \"text-to-speech\"  자동 문장 말하기 기능(text-to-speech)에 의해 사용됩니다."
     },
@@ -18,6 +22,14 @@
     {
       "label": "이미지 콘텐츠 이름",
       "default": "이미지"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

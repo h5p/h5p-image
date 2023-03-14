@@ -8,6 +8,10 @@
       "description": "Wähle diese Option, wenn das Bild rein dekorativ ist und keine Informationen zum Inhalt der Seite hinzufügt. Es wird von Vorlesewerkzeugen ignoriert und erhält keinen Alternativtext."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Alternativtext",
       "description": "Erforderlich. Falls das Bild nicht geladen werden kann, wird dieser Text stattdessen angezeigt. Wird auch zum Vorlesen von Bildschirmtexten genutzt."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Name des Bildinhalts",
       "default": "Bild"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

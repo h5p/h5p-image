@@ -8,6 +8,10 @@
       "description": "Ενεργοποιήστε αυτήν την επιλογή εάν η εικόνα είναι καθαρά διακοσμητική και δεν προσθέτει πληροφορίες στο περιεχόμενο της σελίδας. Θα αγνοηθεί από τους αναγνώστες οθόνης και δεν θα δοθεί εναλλακτικό κείμενο."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Εναλλακτικό κείμενο",
       "description": "Αυτό το κείμενο εμφανίζεται σε περίπτωση που ο φυλλομετρητής αδυνατεί να φορτώσει την εικόνα. Χρησιμοποιείται επίσης και κατά την ακουστική υποβοήθηση. (απαιτείται)"
     },
@@ -18,6 +22,14 @@
     {
       "label": "Όνομα περιεχομένου εικόνας",
       "default": "Εικόνα"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

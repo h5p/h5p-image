@@ -8,6 +8,10 @@
       "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Text alternatiu",
       "description": "Requerit. Si el navegador no pot carregar la imatge es mostrarà aquest text. També s’utilitza per a lectors de \"text a veu\"."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Nom del contingut de la imatge",
       "default": "Imatge"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

@@ -8,6 +8,10 @@
       "description": "Įjunkite šią parinktį, jei vaizdas yra tik dekoratyvus ir neprideda jokios informacijos prie puslapio turinio. Ekrano skaitytuvai jo nepaisys ir nepateiks jokio alternatyvaus teksto."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Alternatyvus tekstas",
       "description": "Būtina. Jei naršyklė negali įkelti vaizdo, vietoj jo bus rodomas šis tekstas. Taip pat naudoja \"teksto į kalbą\" skaitytuvai."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Paveikslėlio turinio pavadinimas",
       "default": "Paveikslėlis"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

@@ -8,6 +8,10 @@
       "description": "Iespējojiet šo opciju, ja attēls ir tikai dekoratīvs un lapas saturam nepievieno nekādu informāciju. Ekrāna lasītāji to ignorēs, un tam netiks piešķirts alternatīvs teksts."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Alternatīvais teksts",
       "description": "Obligāts. Ja pārlūkprogramma nevar ielādēt attēlu, tā vietā tiks atspoguļots šis teksts. To izmanto arī asistīvās tehnoloģijas."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Attēla satura nosaukums",
       "default": "Attēls"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

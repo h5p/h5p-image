@@ -8,6 +8,10 @@
       "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "النص البديل",
       "description": "مطلوبة. إذا كان المتصفح لم يتمكن من تحميل الصورة سيتم عرض هذا النص بدلا من ذلك. تستخدم أيضا من قبل مكبرات الصوت للقراءة"
     },
@@ -18,6 +22,14 @@
     {
       "label": "اسم ملف الصورة",
       "default": "الصورة"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

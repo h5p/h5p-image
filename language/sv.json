@@ -8,6 +8,10 @@
       "description": "Aktivera denna inställning om bilden är renodlat dekorativ, och inte innehåller någon betydelsebärande information. Bilden kommer då att ignoreras av skärmläsare och inte ges någon alternativ text."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Alternativ text",
       "description": "Obligatorisk. Om bilden inte kan laddas i användarens webbläsare så kommer denna text visas istället. Används också av \"skärmläsare\"."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Namn på bildinnehåll",
       "default": "Bild"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

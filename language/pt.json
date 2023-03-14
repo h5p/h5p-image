@@ -8,6 +8,10 @@
       "description": "Selecionar esta opção se a imagem for apenas decorativa e não acrescentar qualquer informação ao conteúdo da página. Será assim ignorada pelos leitores de ecrã, e não lhe será atribuído um texto alternativo.."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Texto alternativo",
       "description": "Obrigatório. Se o navegador não puder carregar a imagem, será mostrado este texto. Também é usado por leitores de \"texto para voz\"."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Nome do conteúdo da imagem",
       "default": "Imagem"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

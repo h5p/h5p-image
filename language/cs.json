@@ -8,6 +8,10 @@
       "description": "Tuto možnost zvolte, pokud má být obrázek čistě dekoračního charakteru a nedodává obsahu stránky nové informace. Obrázek bude odečítači obrazovky ignorován a nebude doplněn alternativním textem."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Alternativní text",
       "description": "Povinné. Pokud prohlížeč nemůže načíst obrázek, zobrazí se místo toho tento text. Také se používá \"text-to-speech\" čtečka."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Název obsahu obrázku",
       "default": "Obrázek"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

@@ -8,6 +8,10 @@
       "description": "Виберіть цей параметр, якщо зображення є виключно декоративним і не додає жодної інформації до вмісту сторінки. Він ігнорується інструментами читання та не отримує альтернативний текст."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "Альтернативний текст",
       "description": "Обов'язковий. Якщо браузер не може завантажити зображення, цей текст буде відображатись замість нього. Також використовується для \"озвучення тексту\"."
     },
@@ -18,6 +22,14 @@
     {
       "label": "Назва вмісту зображення",
       "default": "Зображення"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }

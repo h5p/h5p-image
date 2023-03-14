@@ -8,6 +8,10 @@
       "description": "הפעלת אפשרות זו אם התמונה היא לקישוט בלבד ואינה מוסיפה מידע כלשהו לתוכן בעמוד. קוראי המסך יתעלמו ממנו ולא יקבל טקסט חלופי."
     },
     {
+      "label": "Animation is essential",
+      "description": "Enable this option if the image is animated and playing this animation is essential. Otherwise, the user may have requested reduced motion and needs to actively start the animation."
+    },
+    {
       "label": "טקסט חלופי",
       "description": "נחוץ. אם הדפדפן לא יכול להעלות את התמונה טקסט זה יוצג במקום. בשימוש גם על ידי קוראי \"מטקסט לדיבור\"."
     },
@@ -18,6 +22,14 @@
     {
       "label": "שם תוכן תמונה",
       "default": "תמונה"
+    },
+    {
+      "label": "Start image animation",
+      "default": "Start image animation"
+    },
+    {
+      "label": "Stop image animation",
+      "default": "Stop image animation"
     }
   ]
 }
