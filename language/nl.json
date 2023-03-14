@@ -4,8 +4,8 @@
       "label": "Afbeelding"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Slechts decoratief",
+      "description": "Schakel deze optie in als de afbeelding puur decoratief is en geen informatie aan de inhoud van de pagina toevoegt. Schermlezers negeren de afbeelding dan en geven ook geen alternatieve tekst."
     },
     {
       "label": "Alternatieve tekst",
