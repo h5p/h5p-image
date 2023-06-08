@@ -18,6 +18,14 @@
     {
       "label": "Resim içerik adı",
       "default": "Resim"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

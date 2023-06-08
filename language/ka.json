@@ -18,6 +18,14 @@
     {
       "label": "გამოსახულების შიგთავსის დასახელება",
       "default": "გამოსახულება"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

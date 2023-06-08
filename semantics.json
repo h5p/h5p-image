@@ -45,5 +45,21 @@
     "importance": "low",
     "common": true,
     "default": "Image"
+  },
+  {
+    "name": "expandImage",
+    "type": "text",
+    "label": "Expand Image",
+    "importance": "low",
+    "common": true,
+    "default": "Expand Image"
+  },
+  {
+    "name": "minimizeImage",
+    "type": "text",
+    "label": "Minimize Image",
+    "importance": "low",
+    "common": true,
+    "default": "Minimize Image"
   }
 ]

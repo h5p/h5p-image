@@ -18,6 +18,14 @@
     {
       "label": "Název obsahu obrázku",
       "default": "Obrázek"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

@@ -18,6 +18,14 @@
     {
       "label": "Naziv slike",
       "default": "Image"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }
