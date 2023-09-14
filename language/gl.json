@@ -20,12 +20,12 @@
       "default": "Imaxe"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Ampliar Imaxe",
+      "default": "Ampliar Imaxe"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Minimizar a imaxe",
+      "default": "Minimizar a imaxe"
     }
   ]
 }

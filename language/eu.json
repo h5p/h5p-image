@@ -20,12 +20,12 @@
       "default": "Irudia"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Zabaldu Irudia",
+      "default": "Zabaldu Irudia"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Minimizatu irudia",
+      "default": "Minimizatu irudia"
     }
   ]
 }

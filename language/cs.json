@@ -20,12 +20,12 @@
       "default": "Obrázek"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Rozbalit obrázek",
+      "default": "Rozbalit obrázek"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Minimalizovat obrázek",
+      "default": "Minimalizovat obrázek"
     }
   ]
 }
