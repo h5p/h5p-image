@@ -1,31 +1,31 @@
 {
   "semantics": [
     {
-      "label": "Bildefil"
+      "label": "Bilde"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Dekorativt",
+      "description": "Velg dette hvis bildet bare er dekorativt og ikke bidrar med selvstendig informasjon til innholdet på denne siden. Bildet får ikke alternativ tekst, og skjermleser hopper over det."
     },
     {
       "label": "Alternativ tekst",
-      "description": "Påkrevd. Hvis bildet ikke kan lastes vises denne teksten istedenfor. Denne blir også brukt ved talesyntese."
+      "description": "Obligatorisk. Hvis bildet ikke kan lastes, vises denne teksten i stedet. Teksten blir også brukt av skjermleser."
     },
     {
-      "label": "Sveve-tekst",
+      "label": "Svevetekst",
       "description": "Valgfritt. Denne teksten vises når brukeren holder pekeenheten over bildet."
     },
     {
       "label": "Innholdsnavn for bilde",
-      "default": "Image"
+      "default": "Bilde"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Forstørr bilde",
+      "default": "Forstørr bilde"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Forminsk bilde",
+      "default": "Forminsk bilde"
     }
   ]
 }
