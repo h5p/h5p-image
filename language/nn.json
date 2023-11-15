@@ -1,31 +1,31 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "Bilete"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Dekorativt",
+      "description": "Vel dette dersom biletet berre er dekorativt og ikkje gir nokon sjølvstendig informasjon til innhaldet på denne sida. Biletet får ikkje alternativ tekst, og skjermlesar hoppar over det."
     },
     {
       "label": "Alternativ tekst",
-      "description": "Viss biletet ikkje kan lastast, blir denne teksten vist i istadenfor. Denne blir og nytta ved talesyntese."
+      "description": "Obligatorisk. Viss biletet ikkje kan lastast, blir denne teksten vist i staden for. Teksten blir òg brukt av skjermlesar."
     },
     {
-      "label": "Sveve-tekst",
-      "description": "Denne teksten blir vist når brukaren held peikeeininga over bilete. Kan til dømes brukast til å informere om opphav."
+      "label": "Svevetekst",
+      "description": "Denne teksten blir vist når brukaren held peikeeininga over biletet."
     },
     {
       "label": "Innhaldsnamn for bilete",
       "default": "Bilete"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Forstørr bilete",
+      "default": "Forstørr bilete"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Forminsk bilete",
+      "default": "Forminsk bilete"
     }
   ]
 }
