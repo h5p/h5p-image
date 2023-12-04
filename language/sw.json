@@ -18,6 +18,14 @@
     {
       "label": "Jina la maudhui ya picha",
       "default": "Picha"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

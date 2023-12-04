@@ -18,6 +18,14 @@
     {
       "label": "Název obsahu obrázku",
       "default": "Obrázek"
+    },
+    {
+      "label": "Rozbalit obrázek",
+      "default": "Rozbalit obrázek"
+    },
+    {
+      "label": "Minimalizovat obrázek",
+      "default": "Minimalizovat obrázek"
     }
   ]
 }

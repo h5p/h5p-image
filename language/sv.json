@@ -18,6 +18,14 @@
     {
       "label": "Namn på bildinnehåll",
       "default": "Bild"
+    },
+    {
+      "label": "Expandera bild",
+      "default": "Expandera bild"
+    },
+    {
+      "label": "Minimera bild",
+      "default": "Minimera bild"
     }
   ]
 }

@@ -18,6 +18,14 @@
     {
       "label": "Prent inhoud naam",
       "default": "Prent"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

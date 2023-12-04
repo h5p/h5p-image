@@ -18,6 +18,14 @@
     {
       "label": "Irudiaren edukiaren izena",
       "default": "Irudia"
+    },
+    {
+      "label": "Zabaldu Irudia",
+      "default": "Zabaldu Irudia"
+    },
+    {
+      "label": "Minimizatu irudia",
+      "default": "Minimizatu irudia"
     }
   ]
 }

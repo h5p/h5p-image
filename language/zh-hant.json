@@ -18,6 +18,14 @@
     {
       "label": "圖像名稱",
       "default": "Image"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

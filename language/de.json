@@ -18,6 +18,14 @@
     {
       "label": "Name des Bildinhalts",
       "default": "Bild"
+    },
+    {
+      "label": "Bild vergrößern",
+      "default": "Bild vergrößern"
+    },
+    {
+      "label": "Bild verkleinern",
+      "default": "Bild verkleinern"
     }
   ]
 }

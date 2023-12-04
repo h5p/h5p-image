@@ -18,6 +18,14 @@
     {
       "label": "Image content name",
       "default": "Hình"
+    },
+    {
+      "label": "Expand Image",
+      "default": "Expand Image"
+    },
+    {
+      "label": "Minimize Image",
+      "default": "Minimize Image"
     }
   ]
 }

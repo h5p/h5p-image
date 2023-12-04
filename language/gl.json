@@ -18,6 +18,14 @@
     {
       "label": "Nome do contido da imaxe",
       "default": "Imaxe"
+    },
+    {
+      "label": "Ampliar Imaxe",
+      "default": "Ampliar Imaxe"
+    },
+    {
+      "label": "Minimizar a imaxe",
+      "default": "Minimizar a imaxe"
     }
   ]
 }

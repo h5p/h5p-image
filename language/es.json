@@ -18,6 +18,14 @@
     {
       "label": "Nombre del contenido de la imagen",
       "default": "Imagen"
+    },
+    {
+      "label": "Expandir imagen",
+      "default": "Expandir Imagen"
+    },
+    {
+      "label": "Minimizar Imagen",
+      "default": "Minimizar Imagen"
     }
   ]
 }
