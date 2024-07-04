@@ -9,7 +9,7 @@
     },
     {
       "label": "Nadomestno besedilo",
-      "description": "Zahtevano. Besedilo se prikaže, če spletni brskalnik ne more naložiti slike. Besedilo uporabljajo tudi \"sintetizatorji govora\" (text-to-speech readers)."
+      "description": "Zahtevano. Besedilo se prikaže, če spletni brskalnik ne more naložiti slike. Besedilo uporabljajo tudi \"sintetizatorji govora\" (angl. text-to-speech readers)."
     },
     {
       "label": "Besedilo ob preletu miške",
@@ -20,12 +20,12 @@
       "default": "Slika"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Razširi sliko",
+      "default": "Razširi sliko"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Pomanjšaj sliko",
+      "default": "Pomanjšaj sliko"
     }
   ]
 }
