@@ -19,6 +19,7 @@
     "label": "Alternative text",
     "importance": "high",
     "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers.",
+    "maxLength": 1024,
     "widget": "showWhen",
     "showWhen": {
       "rules": [
