@@ -20,12 +20,12 @@
       "default": "תמונה"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "הגדלת התמונה",
+      "default": "הגדלת התמונה"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "מזעור התמונה",
+      "default": "מזעור התמונה"
     }
   ]
 }
