@@ -9,7 +9,7 @@ var H5P = H5P || {};
  */
 (function ($) {
   const placeholderImg = `
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 903 459">
+    <svg class="h5p-image-placeholder-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 903 459" preserveAspectRatio="xMidYMid slice">
       <defs>
         <style>
           .cls-1 {fill: var(--h5p-theme-alternative-darker);}
@@ -71,6 +71,7 @@ var H5P = H5P || {};
     if (self.$img === undefined) {
       if(self.placeholder) {
         self.$img = $(H5P.Components.PlaceholderImg(placeholderImg));
+        self.trigger('loaded');
       } else {
         self.$img = $('<img>', {
           width: '100%',
