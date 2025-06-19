@@ -22,6 +22,13 @@
       "path": "image.css"
     }
   ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.Components",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ],
   "metadataSettings": {
     "disable": 0,
     "disableExtraTitleField": 1
