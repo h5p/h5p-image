@@ -20,12 +20,12 @@
       "default": "Paveikslėlis"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Išplėsti paveikslėlį",
+      "default": "Išplėsti paveikslėlį"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Sumažinti paveikslėlį",
+      "default": "Minimizuoti paveikslėlį"
     }
   ]
 }
