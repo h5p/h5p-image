@@ -38,7 +38,7 @@ var H5P = H5P || {};
     this.extras = extras;
 
     if (params.file === undefined || !(params.file instanceof Object)) {
-      this.placeholder = true;
+      this.placeholder = params.usePlaceholderImage ?? false;
     }
     else {
       this.source = H5P.getPath(params.file.path, id);
