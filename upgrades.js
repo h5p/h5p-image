@@ -4,9 +4,9 @@ var H5PUpgrades = H5PUpgrades || {};
 H5PUpgrades['H5P.Image'] = (function () {
   return {
     1: {
-      1(parameters, finished, extras) {
+      1: function (parameters, finished, extras) {
         // Use new copyright information if available. Fallback to old.
-        let copyright;
+        var copyright;
         if (parameters.file && parameters.file.copyright !== undefined) {
           copyright = parameters.file.copyright;
         }
@@ -15,7 +15,7 @@ H5PUpgrades['H5P.Image'] = (function () {
         }
 
         if (copyright) {
-          let years = [];
+          var years = [];
           if (copyright.year) {
             // Try to find start and end year
             years = copyright.year
@@ -23,18 +23,18 @@ H5PUpgrades['H5P.Image'] = (function () {
               .replace('--', '-') // Try to check for LaTeX notation
               .split('-');
           }
-          const yearFrom = (years.length > 0) ? new Date(years[0]).getFullYear() : undefined;
-          const yearTo = (years.length > 0) ? new Date(years[1]).getFullYear() : undefined;
+          var yearFrom = (years.length > 0) ? new Date(years[0]).getFullYear() : undefined;
+          var yearTo = (years.length > 0) ? new Date(years[1]).getFullYear() : undefined;
 
           // Build metadata object
-          const metadata = {
+          var metadata = {
             title: copyright.title,
-            authors: (copyright.author) ? [{ name: copyright.author, role: 'Author' }] : undefined,
+            authors: (copyright.author) ? [{name: copyright.author, role: 'Author'}] : undefined,
             source: copyright.source,
             yearFrom: isNaN(yearFrom) ? undefined : yearFrom,
             yearTo: isNaN(yearTo) ? undefined : yearTo,
             license: copyright.license,
-            licenseVersion: copyright.version,
+            licenseVersion: copyright.version
           };
 
           extras = extras || {};
@@ -48,7 +48,7 @@ H5PUpgrades['H5P.Image'] = (function () {
 
         // Done
         finished(null, parameters, extras);
-      },
-    },
+      }
+    }
   };
-}());
+})();
