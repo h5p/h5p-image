@@ -1,31 +1,31 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "Imagine"
     },
     {
-      "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "label": "Doar decorativ",
+      "description": "Activați această opțiune dacă imaginea este pur decorativă și nu adaugă nicio informație la conținutul de pe pagină. Va fi ignorată de cititoarele de ecran și nu i se va atribui niciun text alternativ."
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
+      "label": "Text alternativ",
+      "description": "Obligatoriu. Dacă browserul nu poate încărca imaginea, acest text va fi afișat în loc. De asemenea, este folosit de cititoarele „text-în-vorbire”."
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the users hover their pointing device over the image."
+      "label": "Text la survolare",
+      "description": "Opțional. Acest text este afișat atunci când utilizatorii își plasează cursorul peste imagine."
     },
     {
-      "label": "Image content name",
-      "default": "Image"
+      "label": "Numele conținutului imagine",
+      "default": "Imagine"
     },
     {
-      "label": "Expand Image",
-      "default": "Expand Image"
+      "label": "Extinde imaginea",
+      "default": "Extinde imaginea"
     },
     {
-      "label": "Minimize Image",
-      "default": "Minimize Image"
+      "label": "Minimizează imaginea",
+      "default": "Minimizează imaginea"
     }
   ]
 }
