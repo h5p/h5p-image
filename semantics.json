@@ -28,6 +28,14 @@
         }
       ],
       "nullWhenHidden": true
+    },
+    "accessibility": {
+      "importance": "Compliance",
+      "accessibleWhen": "NotEmpty",
+      "dependsOn": {
+        "source": "decorative",
+        "condition": "NotChecked"
+      }
     }
   },
   {
