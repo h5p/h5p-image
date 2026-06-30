@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-global-assign
-H5P = H5P || {};
+var H5P = window.H5P = window.H5P || {};
 
 /**
  * Constructor.
