@@ -1,0 +1,31 @@
+{
+  "semantics": [
+    {
+      "label": "Gambar"
+    },
+    {
+      "label": "Hanya dekoratif",
+      "description": "Aktifkan opsi ini jika gambar hanya bersifat dekoratif dan tidak menambahkan informasi apa pun ke konten pada halaman. Itu akan diabaikan oleh pembaca layar dan tidak diberikan teks alternatif apa pun."
+    },
+    {
+      "label": "Teks alternatif",
+      "description": "Diperlukan. Jika peramban tidak dapat memuat gambar teks ini akan ditampilkan sebagai gantinya. Juga digunakan oleh pembaca \"teks ke suara\"."
+    },
+    {
+      "label": "Teks arahan",
+      "description": "Opsional. Teks ini ditampilkan ketika pengguna mengarahkan perangkat penunjuk mereka ke gambar."
+    },
+    {
+      "label": "Nama konten gambar",
+      "default": "Gambar"
+    },
+    {
+      "label": "Perbesar gambar",
+      "default": "Perbesar gambar"
+    },
+    {
+      "label": "Perkecil gambar",
+      "default": "Perkecil gambar"
+    }
+  ]
+}
