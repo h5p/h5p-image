@@ -5,15 +5,15 @@
     },
     {
       "label": "Doar decorativ",
-      "description": "Activați această opțiune dacă imaginea este pur decorativă și nu adaugă nicio informație la conținutul de pe pagină. Va fi ignorată de cititoarele de ecran și nu i se va atribui niciun text alternativ."
+      "details": "Activați această opțiune dacă imaginea este pur decorativă și nu adaugă nicio informație la conținutul de pe pagină. Va fi ignorată de cititoarele de ecran și nu i se va atribui niciun text alternativ."
     },
     {
       "label": "Text alternativ",
-      "description": "Obligatoriu. Dacă browserul nu poate încărca imaginea, acest text va fi afișat în loc. De asemenea, este folosit de cititoarele „text-în-vorbire”."
+      "details": "Obligatoriu. Dacă browserul nu poate încărca imaginea, acest text va fi afișat în loc. De asemenea, este folosit de cititoarele „text-în-vorbire”."
     },
     {
       "label": "Text la survolare",
-      "description": "Opțional. Acest text este afișat atunci când utilizatorii își plasează cursorul peste imagine."
+      "details": "Opțional. Acest text este afișat atunci când utilizatorii își plasează cursorul peste imagine."
     },
     {
       "label": "Numele conținutului imagine",

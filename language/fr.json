@@ -5,15 +5,15 @@
     },
     {
       "label": "Cette image ne sert que de décoration",
-      "description": "Activez cette option si l'image est purement décorative et n'ajoute aucune information au contenu de la page. Elle sera ignorée par les lecteurs d'écran et n'aura pas de texte alternatif."
+      "details": "Activez cette option si l'image est purement décorative et n'ajoute aucune information au contenu de la page. Elle sera ignorée par les lecteurs d'écran et n'aura pas de texte alternatif."
     },
     {
       "label": "Texte alternatif",
-      "description": "Obligatoire. Ce texte sera affiché si l'image n'apparaît pas dans le navigateur."
+      "details": "Obligatoire. Ce texte sera affiché si l'image n'apparaît pas dans le navigateur."
     },
     {
       "label": "Texte de survol",
-      "description": "Optionnel. Ce texte est affiché quand la souris survole une image."
+      "details": "Optionnel. Ce texte est affiché quand la souris survole une image."
     },
     {
       "label": "Légende",
