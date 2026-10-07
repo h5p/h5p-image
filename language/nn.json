@@ -5,15 +5,15 @@
     },
     {
       "label": "Dekorativt",
-      "description": "Vel dette dersom biletet berre er dekorativt og ikkje gir nokon sjølvstendig informasjon til innhaldet på denne sida. Biletet får ikkje alternativ tekst, og skjermlesar hoppar over det."
+      "details": "Vel dette dersom biletet berre er dekorativt og ikkje gir nokon sjølvstendig informasjon til innhaldet på denne sida. Biletet får ikkje alternativ tekst, og skjermlesar hoppar over det."
     },
     {
       "label": "Alternativ tekst",
-      "description": "Obligatorisk. Viss biletet ikkje kan lastast, blir denne teksten vist i staden for. Teksten blir òg brukt av skjermlesar."
+      "details": "Obligatorisk. Viss biletet ikkje kan lastast, blir denne teksten vist i staden for. Teksten blir òg brukt av skjermlesar."
     },
     {
       "label": "Svevetekst",
-      "description": "Denne teksten blir vist når brukaren held peikeeininga over biletet."
+      "details": "Denne teksten blir vist når brukaren held peikeeininga over biletet."
     },
     {
       "label": "Innhaldsnamn for bilete",
