@@ -5,15 +5,15 @@
     },
     {
       "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "النص البديل",
-      "description": "مطلوبة. إذا كان المتصفح لم يتمكن من تحميل الصورة سيتم عرض هذا النص بدلا من ذلك. تستخدم أيضا من قبل مكبرات الصوت للقراءة"
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "وضع مؤشر الفأرة فوق الصورة",
-      "description": "اختياري. يتم عرض هذا النص عندما يقوم المستخدم بتحويم موشر الفارة فوق الصورة"
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "اسم ملف الصورة",

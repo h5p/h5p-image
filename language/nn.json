@@ -4,16 +4,16 @@
       "label": "Bilete"
     },
     {
-      "label": "Dekorativt",
-      "description": "Vel dette dersom biletet berre er dekorativt og ikkje gir nokon sjølvstendig informasjon til innhaldet på denne sida. Biletet får ikkje alternativ tekst, og skjermlesar hoppar over det."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternativ tekst",
-      "description": "Obligatorisk. Viss biletet ikkje kan lastast, blir denne teksten vist i staden for. Teksten blir òg brukt av skjermlesar."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Svevetekst",
-      "description": "Denne teksten blir vist når brukaren held peikeeininga over biletet."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Innhaldsnamn for bilete",

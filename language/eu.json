@@ -4,16 +4,16 @@
       "label": "Irudia"
     },
     {
-      "label": "Apaingarria baino ez",
-      "description": "Aukera hau gaitu ezazu irudia apaingarria baino ez bada eta ez badio orriko edukiari informaziorik gehitzen. Pantaila irakurgailuek ez dute kontuan izango eta ez diote ordezko testurik emango."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Ordezko testua",
-      "description": "Beharrezkoa da. Nabigatzaileak ezin badu irudia kargatu, bere ordez testu hau bistaratuko da. Testu-irakurleek ere erabilia."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Desplazamendu testua",
-      "description": "Aukerakoa. Testu hau erabiltzaileak bere gailu erakuslea irudiaren gainetik pasatzean bistaratuko da."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Irudiaren edukiaren izena",

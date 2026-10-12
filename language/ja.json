@@ -5,15 +5,15 @@
     },
     {
       "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "代替テキスト",
-      "description": "必須。ブラウザーが画像をロードできない場合は、このテキストが代わりに表示されます。また、  リードスピーカーによって使用されます。"
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "ホバーテキスト",
-      "description": "省略可能です。このテキストは、ユーザーが画像の上にポインティング デバイスを置いたときに表示されます。"
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "画像のコンテンツ名",

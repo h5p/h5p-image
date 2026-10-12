@@ -4,16 +4,16 @@
       "label": "รูปภาพ"
     },
     {
-      "label": "สำหรับตกแต่งเท่านั้น",
-      "description": "เปิดใช้งานตัวเลือกนี้หากรูปภาพมีเพียงเป็นการตกแต่งเท่านั้นและไม่มีข้อมูลที่เพิ่มเติมในเนื้อหาบนหน้าเว็บ มันจะถูกละเลยโดยส่วนขยายหน้าจอและไม่ได้รับข้อความเป็นตัวเลือกทดแทนใด ๆ"
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "ข้อความทดแทน",
-      "description": "จำเป็นต้องระบุ เมื่อเบราว์เซอร์ไม่สามารถโหลดรูปภาพได้ ข้อความนี้จะถูกแสดงแทน นอกจากนี้ยังใช้กับอ่านข้อความโดยอ่านข้อความต่อเนื่อง"
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "ข้อความเมื่อวางเมาส์",
-      "description": "ตัวเลือกที่ไม่จำเป็น ข้อความนี้จะปรากฏเมื่อผู้ใช้วางเมาส์ของพวกเขาไปที่รูปภาพ"
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "ชื่อเนื้อหาของรูปภาพ",

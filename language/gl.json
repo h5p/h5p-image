@@ -4,16 +4,16 @@
       "label": "Imaxe"
     },
     {
-      "label": "Só decorativa",
-      "description": "Activa esta opción se a imaxe e puramente decorativa e non engade ningunha información ao contido da páxina. Será ignorada polos lectores de pantalla e non terá texto alternativo."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Texto alternativo",
-      "description": "Requirido. Se o navegador non pode cargar a imaxe, amosarase este texto no seu lugar. Úsase tamén para os lectores de pantalla."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Texto ao pasar o cursor por riba",
-      "description": "Opcional. Amósase este texto cando os usuarios sitúan o cursor do seu dispositivo apuntador enriba da imaxe."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Nome do contido da imaxe",

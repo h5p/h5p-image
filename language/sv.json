@@ -4,16 +4,16 @@
       "label": "Bild"
     },
     {
-      "label": "Enbart dekorativ",
-      "description": "Aktivera denna inställning om bilden är renodlat dekorativ, och inte innehåller någon betydelsebärande information. Bilden kommer då att ignoreras av skärmläsare och inte ges någon alternativ text."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternativ text",
-      "description": "Obligatorisk. Om bilden inte kan laddas i användarens webbläsare så kommer denna text visas istället. Används också av \"skärmläsare\"."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Text vid hovring",
-      "description": "Valfri. Denna text visas om användaren placerar sin markör (hovrar) över bilden."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Namn på bildinnehåll",

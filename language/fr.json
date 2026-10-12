@@ -4,16 +4,16 @@
       "label": "Image"
     },
     {
-      "label": "Cette image ne sert que de décoration",
-      "description": "Activez cette option si l'image est purement décorative et n'ajoute aucune information au contenu de la page. Elle sera ignorée par les lecteurs d'écran et n'aura pas de texte alternatif."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Texte alternatif",
-      "description": "Obligatoire. Ce texte sera affiché si l'image n'apparaît pas dans le navigateur."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Texte de survol",
-      "description": "Optionnel. Ce texte est affiché quand la souris survole une image."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Légende",

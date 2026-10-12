@@ -4,16 +4,16 @@
       "label": "Afbeelding"
     },
     {
-      "label": "Slechts decoratief",
-      "description": "Schakel deze optie in als de afbeelding puur decoratief is en geen informatie aan de inhoud van de pagina toevoegt. Schermlezers negeren de afbeelding dan en geven ook geen alternatieve tekst."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternatieve tekst",
-      "description": "Vereist. Als de browser deze afbeelding niet kan laden wordt deze tekst getoond. Ook gebruikt door \"tekst-naar-spraak\" lezers."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Hover tekst",
-      "description": "Optioneel. Deze tekst wordt getoond wanneer een gebruiker zijn muisaanwijzer beweegt over de afbeelding."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Naam afbeeldingsinhoud",

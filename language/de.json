@@ -4,16 +4,16 @@
       "label": "Bild"
     },
     {
-      "label": "Nur dekorativ",
-      "description": "Wähle diese Option, wenn das Bild rein dekorativ ist und keine Informationen zum Inhalt der Seite hinzufügt. Es wird von Vorlesewerkzeugen ignoriert und erhält keinen Alternativtext."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternativtext",
-      "description": "Erforderlich. Falls das Bild nicht geladen werden kann, wird dieser Text stattdessen angezeigt. Wird auch zum Vorlesen von Bildschirmtexten genutzt."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Mouseover-Text",
-      "description": "Optional. Dieser Text wird angezeigt, wenn der Mauszeiger über dem Bild ruht."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Name des Bildinhalts",
