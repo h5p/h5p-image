@@ -4,16 +4,16 @@
       "label": "Зображення"
     },
     {
-      "label": "Декоративне зображення",
-      "description": "Виберіть цей параметр, якщо зображення є виключно декоративним і не додає жодної інформації до вмісту сторінки. Він ігнорується інструментами читання та не отримує альтернативний текст."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Альтернативний текст",
-      "description": "Обов'язковий. Якщо браузер не може завантажити зображення, цей текст буде відображатись замість нього. Також використовується для \"озвучення тексту\"."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Текст під час наведення",
-      "description": "За бажанням. Цей текст відображається, коли користувачі наводять вказівник на зображення."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Назва вмісту зображення",

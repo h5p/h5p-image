@@ -11,14 +11,14 @@
     "type": "boolean",
     "label": "Decorative only",
     "default": false,
-    "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+    "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
   },
   {
     "name": "alt",
     "type": "text",
     "label": "Alternative text",
     "importance": "high",
-    "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers.",
+    "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers.",
     "widget": "showWhen",
     "showWhen": {
       "rules": [
@@ -35,7 +35,7 @@
     "type": "text",
     "label": "Hover text",
     "importance": "low",
-    "description": "Optional. This text is displayed when the users hover their pointing device over the image.",
+    "details": "This text is displayed when the users hover their pointing device over the image.",
     "optional": true
   },
   {

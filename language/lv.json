@@ -4,16 +4,16 @@
       "label": "Attēls"
     },
     {
-      "label": "Tikai dekoratīvs",
-      "description": "Iespējojiet šo opciju, ja attēls ir tikai dekoratīvs un lapas saturam nepievieno nekādu informāciju. Ekrāna lasītāji to ignorēs, un tam netiks piešķirts alternatīvs teksts."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternatīvais teksts",
-      "description": "Obligāts. Ja pārlūkprogramma nevar ielādēt attēlu, tā vietā tiks atspoguļots šis teksts. To izmanto arī asistīvās tehnoloģijas."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Kursora novietošanas teksts",
-      "description": "Neobligāts. Šis teksts tiks atspoguļots, kad lietotājs virs attēla novietos peles kursoru."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Attēla satura nosaukums",

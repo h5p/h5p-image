@@ -5,15 +5,15 @@
     },
     {
       "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternatiewe teks",
-      "description": "Vereis. Indien die webleser nie die prent kan laai nie, sal die teks vertoon word. Word ook gebruik vir \"teks-na-spraak\" lesers."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Sweefteks",
-      "description": "Opsioneel. Hierdie teks word vertoon wanneer die gebruiker sy wysapparaat oor die beeld hou."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Prent inhoud naam",

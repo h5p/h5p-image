@@ -4,16 +4,16 @@
       "label": "Зураг"
     },
     {
-      "label": "Засах боломжтой",
-      "description": "Энэхүү сонголтыг сонгосноор зургыг засах боломжтой бөгөөд мэдээлэл нэмэх боломжгүй болно. Ямарваа нэгэн текстэн мэдээлэл нь харагдахгүй болно."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Нэмэлт текст",
-      "description": "Шаардлагатай. Хэрэв броузер нь зургийг дэмжиж чадахгүй тохиолдолд текстэн мэдээлэл харагдана. Мөн текстээс яриа уруу хөврүүлэх болно."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Ховер текст",
-      "description": "Сонголтоор. Хэрэглэгч зураг дээр хулганаа чирч авчрах үед текст харагдах болно."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Зургийн нэр",

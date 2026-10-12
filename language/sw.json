@@ -4,16 +4,16 @@
       "label": "Picha"
     },
     {
-      "label": "Mapambo tu",
-      "description": "Washa chaguo hili ikiwa picha ni ya mapambo tu na haiongezi habari yoyote kwa maudhui kwenye ukurasa. Itapuuzwa na visoma skrini na haitapewa maandishi yoyote mbadala."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Maandishi mbadala",
-      "description": "Inahitajika. Ikiwa kivinjari hakiwezi kupakia picha, maandishi haya yataonyeshwa badala yake. Inatumika pia na visomaji “maandishi-kwa-hotuba”."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Maandishi ya juu",
-      "description": "Ya hiari. Maandishi haya yanaonyeshwa wakati watumiaji wanaelea kifaa chao cha kuelekeza juu ya picha."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Jina la maudhui ya picha",

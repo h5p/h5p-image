@@ -5,15 +5,15 @@
     },
     {
       "label": "Decorative only",
-      "description": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Vaihtoehtoinen kuvaus",
-      "description": "Vaaditaan. Näytetään, jos selain ei saa ladattua kuvaa. Kuvausta käyttävät myös ruudunlukijasovellukset."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Hover",
-      "description": "Valinnainen. Näytetään, kun käyttäjä pitää kursosia kuvan päällä."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Sisältötyypin nimi",

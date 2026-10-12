@@ -4,16 +4,16 @@
       "label": "გამოსახულება"
     },
     {
-      "label": "მხოლოდ დეკორატიული",
-      "description": "დაუშვი ეს ვარიანტი, თუ გამოსახულება სრულიად დეკორატიულია და არ ამატებს რაიმე ინფორმაციას გვერდზე მოცემულ შინაარსს. ეკრანის წამკითხველი მას უგულებელყოფს და არ მიაწვდის ალტერნატიულ ტექსტს."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "ალტერნატიული ტექსტი",
-      "description": "სავალდებულო. თუ ბრაუზერი გამოსახულებას არ ჩატვირთავს, ეს ტექსტი მის ნაცვლად გამოჩნდება. ასევე გამოიყენება \"ტექსტის გამხმოვანებლის\" მიერ."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "ტექსტი კურსორის მიტანისას",
-      "description": "არა სავალდებულო. ეს ტექსტი გამოჩნდება მაშინ, როდესაც მომხმარებელი კურსორს გამოსახულებასთან მიიტანს."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "გამოსახულების შინაარსის დასახელება",

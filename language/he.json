@@ -4,16 +4,16 @@
       "label": "תמונה"
     },
     {
-      "label": "לקישוט בלבד",
-      "description": "הפעלת אפשרות זו אם התמונה היא לקישוט בלבד ואינה מוסיפה מידע כלשהו לתוכן בעמוד. קוראי המסך יתעלמו ממנו ולא יקבל טקסט חלופי."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "טקסט חלופי",
-      "description": "נחוץ. אם הדפדפן לא יכול להעלות את התמונה טקסט זה יוצג במקום. בשימוש גם על ידי קוראי \"מטקסט לדיבור\"."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "תווית המוצגת במעבר סמן העכבר",
-      "description": "אופציונלי. טקסט זה מוצג כאשר המשתמשים מעבירים את מכשיר ההצבעה שלהם מעל התמונה."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "שם תוכן תמונה",

@@ -4,16 +4,16 @@
       "label": "Bilde"
     },
     {
-      "label": "Dekorativt",
-      "description": "Velg dette hvis bildet bare er dekorativt og ikke bidrar med selvstendig informasjon til innholdet på denne siden. Bildet får ikke alternativ tekst, og skjermleser hopper over det."
+      "label": "Decorative only",
+      "details": "Enable this option if the image is purely decorative and does not add any information to the content on the page. It will be ignored by screen readers and not given any alternative text."
     },
     {
-      "label": "Alternativ tekst",
-      "description": "Obligatorisk. Hvis bildet ikke kan lastes, vises denne teksten i stedet. Teksten blir også brukt av skjermleser."
+      "label": "Alternative text",
+      "details": "If the browser can't load the image this text will be displayed instead. Also used by \"text-to-speech\" readers."
     },
     {
-      "label": "Svevetekst",
-      "description": "Valgfritt. Denne teksten vises når brukeren holder pekeenheten over bildet."
+      "label": "Hover text",
+      "details": "This text is displayed when the users hover their pointing device over the image."
     },
     {
       "label": "Innholdsnavn for bilde",
